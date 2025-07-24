@@ -77,7 +77,7 @@ proxies:
       headers:
         Host: free.bansos4u.biz.id
     udp: true
-- name: B2
+  - name: B2
     server: quiz.int.vidio.com
     port: 80
     type: vless
