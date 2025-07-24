@@ -62,7 +62,7 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
     udp: true
-    name: B3
+  - name: B3
     server: quiz.vidio.com
     port: 80
     type: vless
