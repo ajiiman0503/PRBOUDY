@@ -62,6 +62,21 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
     udp: true
+    name: B3
+    server: quiz.vidio.com
+    port: 80
+    type: vless
+    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: free.xiongt.MY.id
+    network: ws
+    ws-opts:
+      path: /Free/TG-at-XionAlva/194.127.193.124-24467
+      headers:
+        Host: free.xiongt.MY.id
+    udp: true
   - name: B1
     server: quiz.int.vidio.com
     port: 80
@@ -91,21 +106,6 @@ proxies:
       path: /topglobal
       headers:
         Host: top.globalxnet.xyz
-    udp: true
-  - name: B3
-    server: quiz.vidio.com
-    port: 80
-    type: vless
-    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: free.xiongt.MY.id
-    network: ws
-    ws-opts:
-      path: /Free/TG-at-XionAlva/194.127.193.124-24467
-      headers:
-        Host: free.xiongt.MY.id
     udp: true
 proxy-groups:
   - name: ID-X
